@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='MVP Categorized to Tableau' inline='true' name='federated.0p8go8z1inbk4818puibe1ieglum' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='MVP Categorized to Tableau' name='textscan.1dyydjd15dw3nn12ovnf908z9deg'>
+            <connection class='textscan' directory='C:/Users/jcast/OneDrive - Big Shine Energy/Desktop/Data Analyis SQL Project' filename='MVP Categorized to Tableau.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1dyydjd15dw3nn12ovnf908z9deg' name='MVP Categorized to Tableau.csv' table='[MVP Categorized to Tableau#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='ppg_category' ordinal='0' />
+            <column datatype='integer' name='mvp_count' ordinal='1' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[MVP Categorized to Tableau.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ppg_category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ppg_category]</local-name>
+            <parent-name>[MVP Categorized to Tableau.csv]</parent-name>
+            <remote-alias>ppg_category</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[MVP Categorized to Tableau.csv_5834B465C05E484B9340A66B19BC539A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mvp_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mvp_count]</local-name>
+            <parent-name>[MVP Categorized to Tableau.csv]</parent-name>
+            <remote-alias>mvp_count</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[MVP Categorized to Tableau.csv_5834B465C05E484B9340A66B19BC539A]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='MVP Categorized to Tableau.csv' datatype='table' name='[__tableau_internal_object_id__].[MVP Categorized to Tableau.csv_5834B465C05E484B9340A66B19BC539A]' role='measure' type='quantitative' />
+      <column caption='Mvp Count' datatype='integer' name='[mvp_count]' role='measure' type='quantitative' />
+      <column caption='Ppg Category' datatype='string' name='[ppg_category]' role='dimension' type='nominal' />
+      <column-instance column='[ppg_category]' derivation='None' name='[none:ppg_category:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/jcast/AppData/Local/Temp/TableauTemp/#TableauTemp_0xadj801x35vgk1dpt7ug0x0pcry.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='02/11/2025 06:16:01 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>ppg_category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ppg_category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ppg_category</remote-alias>
+              <ordinal>0</ordinal>
+              <family>MVP Categorized to Tableau.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[MVP Categorized to Tableau.csv_5834B465C05E484B9340A66B19BC539A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>mvp_count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[mvp_count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>mvp_count</remote-alias>
+              <ordinal>1</ordinal>
+              <family>MVP Categorized to Tableau.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[MVP Categorized to Tableau.csv_5834B465C05E484B9340A66B19BC539A]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:ppg_category:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;20-24.9 PPG&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Below 20 PPG&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;30+ PPG&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;25-29.9 PPG&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='MVP Categorized to Tableau.csv' id='MVP Categorized to Tableau.csv_5834B465C05E484B9340A66B19BC539A'>
+            <properties context=''>
+              <relation connection='textscan.1dyydjd15dw3nn12ovnf908z9deg' name='MVP Categorized to Tableau.csv' table='[MVP Categorized to Tableau#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='ppg_category' ordinal='0' />
+                  <column datatype='integer' name='mvp_count' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='MVP&apos;s PPG Category'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Distribution of MVPs by PPG Category</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='MVP Categorized to Tableau' name='federated.0p8go8z1inbk4818puibe1ieglum' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0p8go8z1inbk4818puibe1ieglum'>
+            <column caption='Mvp Count' datatype='integer' name='[mvp_count]' role='measure' type='quantitative' />
+            <column-instance column='[ppg_category]' derivation='None' name='[none:ppg_category:nk]' pivot='key' type='nominal' />
+            <column caption='Ppg Category' datatype='string' name='[ppg_category]' role='dimension' type='nominal' />
+            <column-instance column='[mvp_count]' derivation='Sum' name='[sum:mvp_count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0p8go8z1inbk4818puibe1ieglum].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <manual-sort column='[federated.0p8go8z1inbk4818puibe1ieglum].[none:ppg_category:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;25-29.9 PPG&quot;</bucket>
+              <bucket>&quot;30+ PPG&quot;</bucket>
+              <bucket>&quot;20-24.9 PPG&quot;</bucket>
+              <bucket>&quot;Below 20 PPG&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0p8go8z1inbk4818puibe1ieglum].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0p8go8z1inbk4818puibe1ieglum].[none:ppg_category:nk]' />
+              <text column='[federated.0p8go8z1inbk4818puibe1ieglum].[sum:mvp_count:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0p8go8z1inbk4818puibe1ieglum].[sum:mvp_count:qk]</rows>
+        <cols>[federated.0p8go8z1inbk4818puibe1ieglum].[none:ppg_category:nk]</cols>
+      </table>
+      <simple-id uuid='{D73CECA5-E114-4B96-B3C8-27FF2C0775E1}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='MVP&apos;s PPG Category'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0p8go8z1inbk4818puibe1ieglum].[none:ppg_category:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0p8go8z1inbk4818puibe1ieglum].[:Measure Names]</field>
+            <field>[federated.0p8go8z1inbk4818puibe1ieglum].[none:ppg_category:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F7406035-5393-4721-B5C4-A52065593001}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='MVP&apos;s PPG Category' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

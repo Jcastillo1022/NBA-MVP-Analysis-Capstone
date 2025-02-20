@@ -1,0 +1,851 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Analysis of MVP and Team Performance To Tableau' inline='true' name='federated.05775nn0vpezmj1df06z809gy0bj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Analysis of MVP and Team Performance To Tableau' name='textscan.1hbulwn1lgug4q1b554dc1v798u9'>
+            <connection class='textscan' directory='C:/Users/jcast/OneDrive - Big Shine Energy/Desktop/Data Analyis SQL Project' filename='Analysis of MVP and Team Performance To Tableau.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1hbulwn1lgug4q1b554dc1v798u9' name='Analysis of MVP and Team Performance To Tableau.csv' table='[Analysis of MVP and Team Performance To Tableau#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='season' ordinal='0' />
+            <column datatype='string' name='player' ordinal='1' />
+            <column datatype='string' name='team' ordinal='2' />
+            <column datatype='real' name='ppg' ordinal='3' />
+            <column datatype='real' name='apg' ordinal='4' />
+            <column datatype='real' name='rpg' ordinal='5' />
+            <column datatype='real' name='wins_shares' ordinal='6' />
+            <column datatype='real' name='win_shares_per_48' ordinal='7' />
+            <column datatype='real' name='fg_percentage' ordinal='8' />
+            <column datatype='real' name='team_win_percentage' ordinal='9' />
+            <column datatype='real' name='team_points_scored_per_game' ordinal='10' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Analysis of MVP and Team Performance To Tableau.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>season</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[season]</local-name>
+            <parent-name>[Analysis of MVP and Team Performance To Tableau.csv]</parent-name>
+            <remote-alias>season</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>player</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[player]</local-name>
+            <parent-name>[Analysis of MVP and Team Performance To Tableau.csv]</parent-name>
+            <remote-alias>player</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[team]</local-name>
+            <parent-name>[Analysis of MVP and Team Performance To Tableau.csv]</parent-name>
+            <remote-alias>team</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ppg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ppg]</local-name>
+            <parent-name>[Analysis of MVP and Team Performance To Tableau.csv]</parent-name>
+            <remote-alias>ppg</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>apg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[apg]</local-name>
+            <parent-name>[Analysis of MVP and Team Performance To Tableau.csv]</parent-name>
+            <remote-alias>apg</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rpg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rpg]</local-name>
+            <parent-name>[Analysis of MVP and Team Performance To Tableau.csv]</parent-name>
+            <remote-alias>rpg</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wins_shares</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[wins_shares]</local-name>
+            <parent-name>[Analysis of MVP and Team Performance To Tableau.csv]</parent-name>
+            <remote-alias>wins_shares</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>win_shares_per_48</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[win_shares_per_48]</local-name>
+            <parent-name>[Analysis of MVP and Team Performance To Tableau.csv]</parent-name>
+            <remote-alias>win_shares_per_48</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fg_percentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fg_percentage]</local-name>
+            <parent-name>[Analysis of MVP and Team Performance To Tableau.csv]</parent-name>
+            <remote-alias>fg_percentage</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team_win_percentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[team_win_percentage]</local-name>
+            <parent-name>[Analysis of MVP and Team Performance To Tableau.csv]</parent-name>
+            <remote-alias>team_win_percentage</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team_points_scored_per_game</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[team_points_scored_per_game]</local-name>
+            <parent-name>[Analysis of MVP and Team Performance To Tableau.csv]</parent-name>
+            <remote-alias>team_points_scored_per_game</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Analysis of MVP and Team Performance To Tableau.csv' datatype='table' name='[__tableau_internal_object_id__].[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]' role='measure' type='quantitative' />
+      <column caption='Apg' datatype='real' name='[apg]' role='measure' type='quantitative' />
+      <column caption='Fg Percentage' datatype='real' name='[fg_percentage]' role='measure' type='quantitative' />
+      <column caption='Player' datatype='string' name='[player]' role='dimension' type='nominal' />
+      <column caption='Ppg' datatype='real' name='[ppg]' role='measure' type='quantitative' />
+      <column caption='Rpg' datatype='real' name='[rpg]' role='measure' type='quantitative' />
+      <column caption='Season' datatype='string' name='[season]' role='dimension' type='nominal' />
+      <column caption='Team' datatype='string' name='[team]' role='dimension' type='nominal' />
+      <column caption='Team Points Scored Per Game' datatype='real' name='[team_points_scored_per_game]' role='measure' type='quantitative' />
+      <column caption='Team Win Percentage' datatype='real' name='[team_win_percentage]' role='measure' type='quantitative' />
+      <column caption='Win Shares Per 48' datatype='real' name='[win_shares_per_48]' role='measure' type='quantitative' />
+      <column caption='Wins Shares' datatype='real' name='[wins_shares]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/jcast/AppData/Local/Temp/TableauTemp/#TableauTemp_15ye8671orm9iy1fl50gp02ujv3u.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='02/11/2025 10:00:20 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>season</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[season]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>season</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Analysis of MVP and Team Performance To Tableau.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>player</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[player]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>player</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Analysis of MVP and Team Performance To Tableau.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>team</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[team]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>team</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Analysis of MVP and Team Performance To Tableau.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ppg</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ppg]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ppg</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Analysis of MVP and Team Performance To Tableau.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>apg</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[apg]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>apg</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Analysis of MVP and Team Performance To Tableau.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rpg</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[rpg]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rpg</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Analysis of MVP and Team Performance To Tableau.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>wins_shares</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[wins_shares]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>wins_shares</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Analysis of MVP and Team Performance To Tableau.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>win_shares_per_48</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[win_shares_per_48]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>win_shares_per_48</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Analysis of MVP and Team Performance To Tableau.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fg_percentage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[fg_percentage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fg_percentage</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Analysis of MVP and Team Performance To Tableau.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>team_win_percentage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[team_win_percentage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>team_win_percentage</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Analysis of MVP and Team Performance To Tableau.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>team_points_scored_per_game</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[team_points_scored_per_game]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>team_points_scored_per_game</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Analysis of MVP and Team Performance To Tableau.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Analysis of MVP and Team Performance To Tableau.csv' id='Analysis of MVP and Team Performance To Tableau.csv_C07056E50836454ABD2377697782FB7A'>
+            <properties context=''>
+              <relation connection='textscan.1hbulwn1lgug4q1b554dc1v798u9' name='Analysis of MVP and Team Performance To Tableau.csv' table='[Analysis of MVP and Team Performance To Tableau#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='season' ordinal='0' />
+                  <column datatype='string' name='player' ordinal='1' />
+                  <column datatype='string' name='team' ordinal='2' />
+                  <column datatype='real' name='ppg' ordinal='3' />
+                  <column datatype='real' name='apg' ordinal='4' />
+                  <column datatype='real' name='rpg' ordinal='5' />
+                  <column datatype='real' name='wins_shares' ordinal='6' />
+                  <column datatype='real' name='win_shares_per_48' ordinal='7' />
+                  <column datatype='real' name='fg_percentage' ordinal='8' />
+                  <column datatype='real' name='team_win_percentage' ordinal='9' />
+                  <column datatype='real' name='team_points_scored_per_game' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='MVP Scoring Trends'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Analysis of MVP and Team Performance To Tableau' name='federated.05775nn0vpezmj1df06z809gy0bj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05775nn0vpezmj1df06z809gy0bj'>
+            <column-instance column='[player]' derivation='None' name='[none:player:nk]' pivot='key' type='nominal' />
+            <column-instance column='[season]' derivation='None' name='[none:season:nk]' pivot='key' type='nominal' />
+            <column caption='Player' datatype='string' name='[player]' role='dimension' type='nominal' />
+            <column caption='Ppg' datatype='real' name='[ppg]' role='measure' type='quantitative' />
+            <column caption='Season' datatype='string' name='[season]' role='dimension' type='nominal' />
+            <column-instance column='[ppg]' derivation='Sum' name='[sum:ppg:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.05775nn0vpezmj1df06z809gy0bj].[none:player:nk]'>
+            <groupfilter function='level-members' level='[none:player:nk]' />
+          </filter>
+          <manual-sort column='[federated.05775nn0vpezmj1df06z809gy0bj].[none:season:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;2022-23&quot;</bucket>
+              <bucket>&quot;2013-14&quot;</bucket>
+              <bucket>&quot;2016-17&quot;</bucket>
+              <bucket>&quot;2000-01&quot;</bucket>
+              <bucket>&quot;2017-18&quot;</bucket>
+              <bucket>&quot;2015-16&quot;</bucket>
+              <bucket>&quot;2009-10&quot;</bucket>
+              <bucket>&quot;1999-00&quot;</bucket>
+              <bucket>&quot;2019-20&quot;</bucket>
+              <bucket>&quot;2008-09&quot;</bucket>
+              <bucket>&quot;2007-08&quot;</bucket>
+              <bucket>&quot;2018-19&quot;</bucket>
+              <bucket>&quot;2021-22&quot;</bucket>
+              <bucket>&quot;2011-12&quot;</bucket>
+              <bucket>&quot;2012-13&quot;</bucket>
+              <bucket>&quot;2020-21&quot;</bucket>
+              <bucket>&quot;2001-02&quot;</bucket>
+              <bucket>&quot;2010-11&quot;</bucket>
+              <bucket>&quot;2006-07&quot;</bucket>
+              <bucket>&quot;2003-04&quot;</bucket>
+              <bucket>&quot;2014-15&quot;</bucket>
+              <bucket>&quot;2002-03&quot;</bucket>
+              <bucket>&quot;2005-06&quot;</bucket>
+              <bucket>&quot;2004-05&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.05775nn0vpezmj1df06z809gy0bj].[none:player:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.05775nn0vpezmj1df06z809gy0bj].[none:player:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05775nn0vpezmj1df06z809gy0bj].[sum:ppg:qk]</rows>
+        <cols>[federated.05775nn0vpezmj1df06z809gy0bj].[none:season:nk]</cols>
+      </table>
+      <simple-id uuid='{48FB33FF-056B-4A12-A5AD-1EF853C10A08}' />
+    </worksheet>
+    <worksheet name='Team Success vs. MVP Performance'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Analysis of MVP and Team Performance To Tableau' name='federated.05775nn0vpezmj1df06z809gy0bj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05775nn0vpezmj1df06z809gy0bj'>
+            <column-instance column='[player]' derivation='None' name='[none:player:nk]' pivot='key' type='nominal' />
+            <column-instance column='[season]' derivation='None' name='[none:season:nk]' pivot='key' type='nominal' />
+            <column caption='Player' datatype='string' name='[player]' role='dimension' type='nominal' />
+            <column caption='Ppg' datatype='real' name='[ppg]' role='measure' type='quantitative' />
+            <column caption='Season' datatype='string' name='[season]' role='dimension' type='nominal' />
+            <column-instance column='[ppg]' derivation='Sum' name='[sum:ppg:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[team_win_percentage]' derivation='Sum' name='[sum:team_win_percentage:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[wins_shares]' derivation='Sum' name='[sum:wins_shares:qk]' pivot='key' type='quantitative' />
+            <column caption='Team Win Percentage' datatype='real' name='[team_win_percentage]' role='measure' type='quantitative' />
+            <column caption='Wins Shares' datatype='real' name='[wins_shares]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.05775nn0vpezmj1df06z809gy0bj].[sum:team_win_percentage:qk]' value='53' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.05775nn0vpezmj1df06z809gy0bj].[sum:wins_shares:qk]' />
+              <color column='[federated.05775nn0vpezmj1df06z809gy0bj].[none:player:nk]' />
+              <text column='[federated.05775nn0vpezmj1df06z809gy0bj].[none:player:nk]' />
+              <lod column='[federated.05775nn0vpezmj1df06z809gy0bj].[none:season:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear'>
+              <excluded-factors>
+                <column>[federated.05775nn0vpezmj1df06z809gy0bj].[none:player:nk]</column>
+              </excluded-factors>
+            </trendline>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.05775nn0vpezmj1df06z809gy0bj].[sum:ppg:qk]</rows>
+        <cols>[federated.05775nn0vpezmj1df06z809gy0bj].[sum:team_win_percentage:qk]</cols>
+      </table>
+      <simple-id uuid='{94C2A0BC-A993-47B2-A9FD-488AB0B5B8D1}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Team Success vs. MVP Performance'>
+      <cards>
+        <edge name='left'>
+          <strip size='213'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='300'>
+            <card pane-specification-id='0' param='[federated.05775nn0vpezmj1df06z809gy0bj].[sum:wins_shares:qk]' type='size' />
+            <card pane-specification-id='0' param='[federated.05775nn0vpezmj1df06z809gy0bj].[none:player:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.05775nn0vpezmj1df06z809gy0bj].[none:player:nk]</field>
+            <field>[federated.05775nn0vpezmj1df06z809gy0bj].[none:season:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5842DA29-F1B0-4636-A91B-01B5FC97AFF0}' />
+    </window>
+    <window class='worksheet' name='MVP Scoring Trends'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.05775nn0vpezmj1df06z809gy0bj].[none:player:nk]</field>
+            <field>[federated.05775nn0vpezmj1df06z809gy0bj].[none:season:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D3D715C0-2000-4C38-9874-BCFABC57BBE4}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='MVP Scoring Trends' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Team Success vs. MVP Performance' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO2dZ3Nc15nnfzd0zt3IGQwCSDGaIiWZsjy0PLZr7HWo2qp9tVs15XLtt5mP
+      sPtq5s1UeXa0rh15LFvBQ42sQBAkQYIEEYicO4cbz74Au02IANkAmgCpPr8qFFLfB//bOP97
+      zj3nOc9VhBACiaQJURRFUY9ahERylOj7PVAIgeM4qGpjPOQ4DpqmHTiOEAIhREN0NUpTI2NJ
+      TfVRbzuo2wCLc9OUXQ+KkSeU7KAtFT+wSInkRVLP6L5uA4SCIdLrWVTTwmvbKIqCoigN6wFc
+      121ILCFEw2I1Kk4jY0lN9VFt/A3rAXL5PLqq4QsFsC37YOokkpeEug3QO3D8ReqQSI4EOQsk
+      aWqkASRNjTSApKnZ9zqA5NuPEIKsmWY8cxuBy/HoMK3+DhRFOWppDUMaQLIrjrC5tfkVV1q/
+      h6pofLX2H4T0CCFP+KilNQw5BJLsStEuEPcm8esBvJqXzmAvaXP9qGU1FGkAya4E9TAZc5OK
+      U8Z0TJbK8yS8LUctq6HIIZBkV3RF52zyEjfX/4JAcDw6TFAPHbWshiINIAHAsiw8Hk/te/tx
+      ugsllRPaGVpatq78ruviOA66rm97raZpOFaJpckPMMrr+EPtdB77MZoncOjnshekASQAjI+P
+      o2ka8Xic5eVlgsEgkUiE8fFxuru7WVxcpFQqkUgkuHfvHleuXGF1dZWuri4+/vhjfvbTv2Px
+      /j/RPnCNYLSXYmaGmTv/xLELf4/rbuVnPWmwJ3Ech3w+TywWO+Szlgb49iMEFAqgKBAKbX3+
+      BrZtUywWKZVKTExMsLi4yIkTJzh9+vS212iaxvr6Or29vYyMjACwubnJ4OAg5cISvkCSSPIk
+      ANGWYdLLNzBK63z+5V1SqRSmadLX10cgEGBpaQld17Ftm0gkwujoKC0tLQwODmJZFvl8nnw+
+      T09PD1NTU7iuC8Dbb7/d0LdHGuDbjBAwehN8vq2vHQfOnH3KBNVGXCqViEajLC4u0tHRQTQa
+      pb+/n0qlwtDQELB1tZ6YmODatWtUKhV0XWdychKfz0/xG+nHQghQFBYWFvD7/dy+fZtyuUyh
+      UCAWi6HrOh6Ph2g0yqlTp5iammJsbIylpSUuXrzI7Owsk5OTDA0NsbCwwKVLlxr+FikH2RLZ
+      yI0Qtm1vG1ful2o6dCN0NUpTI2PtKc7GOmQycPzE1vf37kJ3D0SjDdekqQpTo/+blp63CcUH
+      yW8+JL18g8Fz/4NCoYhhGExNTXH69GlyuRzBYLD2P9J1nS+//JK3336bGzdu0NvbS2trK3fv
+      3qWtrY1YLIZpmszPz3PmzJm6NNXTDhRFUaQBDkFTI2PtKc7aKhSLMDC49f2D+9DWDvH4vjWV
+      DYs/fDVFrmgQj/j50RvHURWBrus4doXl6Q+pFJYIRLppH3gPTfftKf5htgNFURQ5BPo2k2qB
+      R49A08B1oZCHk68dKORHIzOcPdZGf3uciYVNPhmd4dqFfgA03U/3yZ81QvlT3L17l0wmw/Dw
+      MMlksvZzIQTz8/P09vbueIxhGFy6dGnX9A1pgG8zqgoXv7PVEygKXPjOjjfBeyGTr9DXFkNV
+      FY53Jbhxf7FBYp+NoihYlsXvfvc7ent7uX79Ot/97nepVCpYlsXU1BTXr1/n/PnzlEol3nnn
+      HYrFIm+99RY3b97EMAxWVlbw+XwEg0HC4a10DmmAV4zqbEl/f/+OvxdCsLGxgd/vx7IsDMMg
+      Hk/gui7Bx9sDq6PeQqFAPP703m7btjFNk2Aw+NTvulsj3JhY4tyxdr66v8hA58H2hgshKFtl
+      xpZvoSoqw62n0bTQU1dsVVWxbZuhoSFUVeXq1asYhkE4HKavrw/Hcbhw4QJ9fX2kUil0Xcfn
+      8/HVV1+xubmJ1+vljTfewDRN2tvb+fDDDwF5E3womhoZ6+bNm2SzWY4dO4brukxPT9PR0YFh
+      GCiKgt/vZ3Z2lp6eHgqFAplMBoDe3l7y+TyWZaGqKmtra5imyalTp1hZWSEej+M4Tq1RFYtF
+      zp07Ryi0feXXcVz+cm+B+bUcAx1x3hjqwnWdfZ9bwcjz/+6+z8WeNxDC5cbcV/zy3H/FX8cC
+      WrFYfEpflWe1g3Q6jdfrJRwOy3uAV42JiQnC4TCjo6M4jsP8/DyGYTA3N0c6nebs2bO1xphI
+      JMjlcszPz7O5uUkulyMQCNDd3U0kEiGfz7O6ukoikWB1dRXDMHAch2w2y8rKCsPDw081ME1T
+      +e6Z7ePtx1P0+2J0cYQ3+6/SnxwAtgx2Z+kWb/S9+dxjv6ltc32NjdUVAAKBIB29fTsel0gk
+      al9LA7xi/OIXv6gNBxRFwbZtPB5PrUZTtVJHtWpHf38/QggURcE0TRRFwePxYFkWtm0TCARQ
+      FAXXdXFdFyG2ZnQalfMvhMB2XRRFQd+hQoPrOmjqX6/SuqrjCAfXcbBsG6/XW5eWSqlELr3J
+      iVOvA5BeX2N9ZZmO7p5nHlf3EGhxbpqNnIEmTHzhJMcHeuQQ6AhivUqabNdhdGGesm0hhKA1
+      HGGotX1bg86U0nz44AOuHvs+Qrj8efJjLsYu8ejBNLquI1yXN956m+hz0iRWFuYJhMJEH9/T
+      uI7D1IPxmiF2Yk/ToIFAAK1QIRRpBcfcdsVoBK7rYtuNKbfSKF2N1tSIWC9K0+LiIp2dnSiK
+      Qi6X489//jPnz5+np2fnK+ji4iJdXV3P1HRneZG2cJjOSAwB3FtZYi69QVf0rzfOYW+Evzn+
+      Q24v30RB4Wr3u4x/8SXfO92GRxUU/N18fv0/uPa3P3pmT+ALBslmNgk+nt0pFYt4vN7nvld1
+      G6BUKhOJJdHsEr5YK6qqIoR4KXsARVFkD7DHWPl8nvb2dv7hH/6BixcvUi6XmZ+f5+HDhxiG
+      QTQaZW1tjdOnTzM0NEQ6neYf//Efa0lxfr8fj8fD9PQ0oVCIn/70p+RMg7NdPWiPhz7HW9u4
+      u7xEX3L7noKWSCvXIn8LwNTDCYajBfwd74InQGz+c/w62LZFIPD0rFSVWDxBIZtlduohuqZj
+      GBUGTrz23Peq7neyu2+w3pdKXkEcx+HmzZucO3eO3t5eTNPE4/Fw5swZvvjiCzweD5cvX8Z1
+      Xe7evYsQglOnTqGqKm+++SbK45yfK1euUC6X2dzcRA94MR2bgOoFIG8YBL3eZ+qIRUIo4Qgi
+      2IKiKIhwB6I0gsfz7OMURaFnYBDbsnAcB6/PV0uge+Zxchr0xWtqZKxXSVOmXGJ0cZ6BZArL
+      cVjIZnh74Bhebfe/aVsWuVvvk/N0Ek62IeY+p5D6DoOvnd71mJ2QuUDSAIcWa7c4AjAsi8Vc
+      Bl3V6IrG0J/zf7FtGw0ba34Eq1JEa38dX3zvlShkLpDkyFEAv8fDsVRrXa+3HIex5UUMx6Ez
+      NkRvf+KFl2A5kAEMw2BmZgafz4fX68Xj8eD1evH5fKiqiqZpqKpa+5B8exBCsJzP8ZeZGUJe
+      D++eeA3fAXoT23X5dGqC19s6iAWDzGxucGd5kTMdXdu2YGYyGTRNIxKJ7Bzn8cadejnQEMgw
+      DDY2NjAMA9M0MU0Ty7IwTRPbtrcWQR5/rn4oioKu63i93tqGCI/Hg6ZpBAIBfD7fNiN9c2Hn
+      eVcEOQR6NnNzc9i2zeDgIIuLi7S1tdXimabJn/70J44dO8Zrr+2cNVosFvH5fGSMCu/fvsWv
+      zl1gNZ/jL7OP+O9vXNn3FXtibYWAx0tHOFLT8+epCS60d7GytEQsFmNzc5OpqSls2+bcuXO4
+      rks2myWZTJLL5Thz5gxjY2O1C3A6ncZxHPr7+5mbm6Ozs5NsNlvb6XbgIZCu67W54HoRQmBZ
+      Vm0lsvp1qVTCNE3y+fw2IzmOU2vUT8ZQFAWv17ut56l+6LqO3++vfe/zPZ2T/m2qbrYXfvvb
+      3/Lzn/+c999/v7Yl0ev1cu/ePX7zm9+QyWRYW1vjwYMH9PX14fP5+OCDDzh79iyZTAbXdTlx
+      4gSLXp2fvX6WRDBIxOtlbGWZvFEh6t/fJviSZdIS2n5V92o6tuvgui6ffPIJoVAIIQQ+n4+Z
+      mZmtWSIhqFQq+P1+XNelWCyyurrK3Nwcp0+fRlEUvvjiC1ZXV0mn06iqum2r56HfAzzZcJ9k
+      r1c2IcS2XscwDCzLolKpUCgUsG279jPDMGqmqT42p2oAVVVrJvmmkVRVJRAI1Hqpb2p+Ffnh
+      D3/IwsICiqIQDAYpFAqEw2HeeuutWi+saRrnz59nc3MT27bp6+vDdV2uXLnC2toaqqrSHony
+      KL1BWySCALLlMn798aZ3IWD1NhTXwB+HjgugPrtHHki2cHd5kcs9W1muFcuibJlEgyHGVle5
+      cuUKuVwOIQR+v5/Ozk4AZmZmGBgYALZ6p2QySWtrKwMDA6RSKVRVZXh4mPHxcdra2jAMY9vf
+      bapZoOqpVodjsLWKWTWKaZrbTFNNDqsO6aq5NFUzPXl/o2narkbyeDwoilL73UHO8zCHZdPT
+      0wwMDOzYWwoh+O2tmxi2Tdk0eWvwGK93bDVKlkfBE4TkccgtQH4Bet56phYhBLPpTSY3VvHp
+      HhzX5Y3egeeuGzwrnpwGfUGaqgaqplxUa+XsZqRqb1RNGagmslV7I13Xayaq3h9VzVKdYPD5
+      fLVzqg7zDjqxcND3XAiB4dgorsD3ZEOd/BCOv8fWPJCAyT/C8R/WFdOyLFBV9Cd66f1qk9Og
+      L4jdno+20waSKjs1tifNU/1c7WmqH9V7our9kGmatSd0uo+zLGHrfkzX9ZqJnjSPx+PBY1lY
+      X36JVjHwDw4SunIZHqeM7LehGY7NveUlLMfmdEcXYZ9/6xfeEBTXIdQCRh60nesB7YSiKM9d
+      K2gksgc4BE2NjLVTnKp5qgb6pomMUon0v32A/uYVbFXFePQIK51BOzUM/HVoWE2V9nq9tSHd
+      N41UG9Z5vXz08D6XevtRURhZmuedYye27gNcG+Y+A9sAVYfet0H3P/fcXCFYyGxStm06IlEi
+      Pv++zSmHQE1kgOces7pG5fYtwu+9B4BwHLK//RfCv/rltliu6z41O/ekkZ782CzkWc3nGEik
+      cByHtUIeR7h0RGK1iYUnDfTk52/eH1X5Ym6GiNdHIhjiUXqD7liC3vjW5pWqERzHeebTSZ9s
+      znIIJAFACQZw8vnazbtbLKHucHOpqio+n682bSwsC+P+fYQr8A29hvrEdHLFsvhyboZ3Bk/g
+      OA53VpbojsVpDUdwHOcp81Rn6HK53LafV6e5N4oF8oZBbyzOiqYhgH9d+ZyzXT3kslk6Ojpw
+      XZfR0VE8Hg/vvvsuqqpSqVSIxWKUSiVOnjzJ3bt3CYVC6LpONpvFdV26u7tZWFigs7OTdDrN
+      yZMna+chDdAEqKEQnu5u8v/3d2jxONbSUq032A23YpB7/318w0MoikruX98n+rOfoj6+z/Hp
+      Oh2RKJ9MPgAgGQzREtrKxdc0DU3T8PufP+ypMrm+hkfT6AxH0DRta2fa5ANeiyVZmJtjZGQE
+      VVXx+/04jsOnn35a66Wqf/PRo0c8ePAA27bZ2NigtbW1tk6wvLxMT09PbcN8dUpbGqAJUBSF
+      wBtv4GZzuIUCgTevoPp8z9wsYoyN4T93Fv/w1n2CEgxSuXWL4Ftv1WKebG3nWKp1azHt8VTv
+      fumIRLm5OEdHOIKqqmTLZbxeL62pFON373Lt2jWKxSKu6+Lz+eju7q4VBTh+/HhNU1dX11al
+      asehpaWlVk5lfHycRCJBuVzGcRxyuRwgDdA0KIqCFo+hxeurwOwaBp5Uqva96vdjGeZTr9NU
+      FXHAKUuAoNfLQDLFZ4+m8GgaqqJwobsXXde5du3arsc9ucEdqK3yfvNecLeMBWkAyY74Xz9N
+      /vf/jhoJg6JQ+vxzQn/z/Rf29xRFoTuWoDUYRmnAOkC9SANIdkSLRgm/9wPKX30NQhD63jvo
+      T5QkrCEEZEs42RIooLYnUIJ7qwf6JOohrwNIAzQpGxsbfPzxx1y4cIH+/v7adKht23z00Uec
+      PHmSgYEBIj/+0TPjuLkSomSgDbaDELgzq6i9LSieV6NpvRoqJQ0nlUrR0dGBEIJbt24xMzND
+      NBrl6tWr9Pf3s7i4WMuBevDgAa2trbV0jupq9MDAAMOhVpSu+NZwRVFQ22KIdAGl7emSiZbj
+      YjmCgOdwhjf1IA3QxAQCASzLwufzcfbs2do6wdjYGN3d3dy7d49oNMrZs2dZWFgAoFwu47ou
+      Z86c2UpR11SwXXi8rCAMG3a4+s9nDdYKFn6PSsl0uNAVRlOP3gR1rwQvzc+wWbBQzAKprgHa
+      WxJyJfgIYr1smoRlY8+soqUiYLuIUgW1v23bFd52BbeWilzs2ip6u1awKJgOg8mn1wmqO7pE
+      cRVRWEON96H4o3vX1ehkOJ/PT2c4SXrFJpvL05qMycJYRxDrpdOkgOhJ4pZM8GrwODXiSSxX
+      oCJqP/eogopl7/i3XdfFmf4Uso9Qoj1YU5+gHn8PNXViz9LqaQd1GyCXy4LHwePzEo5EZWGs
+      I4r1UmpCoIYroHpR9KezSzUBHs1kMW8T9es8WDc42xlE15/+H9nlPM7Gfbxv/k8URUUMvoP5
+      1f9Cbx/mn//5nxkcHGRgYIB4PF5bBFtYWGBpaYlAIMDQ0FDtf68oCtlslkKhQFdXF67rMjs7
+      y+Dg4N4XwgaODx3kPZJ8SxGOgbX8PlqgA+EYIBx8bT/a9iAORYHT7UGW8xYbRYtzXSH8+i7J
+      bHYFxRNEUR7/XveBu9VzDA8PUyqVuH//PsvLy+i6Tj6fJx6PUy6XyWQyTE5O1vZaOI5DR0cH
+      i4uLnDt3jpGRkVrmbKlU2gr/Yt8eycvE2NgY2WyWwcGtKn/hcJhSqYTjOKTTaYaHh/noo4+I
+      RCL09fXVenjHcSgWi0SjUUzT5Pbt2/j9fl5//XUS6hha8nt4gx0gBFb2BnZpCj10fNvfVhSF
+      zujzd3cp/jiuVcbemMINtqOs3UaNb5U5X1hY4MSJE+i6zsmTJ2sNOR6P09rayvj4OF6vl/7+
+      fnK5HI7j0NraSiKRIJPJ0NnZyfHjx6lUKrS3twPSAE1FNpulWCzyxz/+kZaWllp6cqFQIJFI
+      kM/n8Xq9LC0t1UredHZ21kqQXL9+nc7OThKJrXo98XgckS6i6Y/TKxQF1deBW56HbxigbhSF
+      yuDfUR75P/hEmaKeouXKf8MD/OQnP3nmoZcvX659Xe9kiNwPcAiaGhnrIHEymQyO47C6ulor
+      TtDW1kY+nyccDuPz+VhaWmJtba32aNLu7u7a8aurq1uPNCqXSaVSKIpCRzSDbZXwJS8DLubK
+      v+FJXkX1JnYX8gxM02R28iHHhoZRVRXTMJifmebY0PCe4sgtkZKnqD4PLPU4ya1qpuoD4wD6
+      +/t3ff7YTs8TE6IbZ/NLjKV/AcATu4Cix3Dm1sGyQddQu5IoO9zw7oRtW3i8ntqGF4/Xi+s6
+      zzlq/0gDSA6Eoihose+g61eAx1fe2TXUthhKwIcwLNy5NdSB9rpWfz0eL5ZpYpkmusdDqVDA
+      8wLL0UgDSBqLAFyBEthKiFN8HtA1sJ0dV4i/SbXM+ezUJMJ18Hh99FQf9P0CkAaQNBaFrafm
+      CbE1/ynEVuPX6i/h4g8Et435X2TekDSApKEoioLSEsOZWUWJBBDFCko0iLLHGkaHlSwnDSBp
+      OGo0gAj6tvKCOpMonsPL798rsma5ZF/k83k++OADZmZmnipc/Nl//ifL66uosRCKV9+2Kvyy
+      IXsAyb6IRCIkEgl0XWdsbIz5+XlCoRDvvvsusVis9nA9IQSTk5O0tbWxurpKR0cHxWKRUqlE
+      e3v7tkrNR4E0gORAlMtlSqVSbe1ACMHY2BipVIqvv/66lrawsrJCuVxmbGyMlZUVfvCDHzyV
+      NXoUyJXgQ9DUyFhSU33UuxIs7wEkTY00gKSpkQaQNDXSAJKmRhpA0tRIA0iaGmkASVMjDSBp
+      aupecVian6Fka6h2CW+khe721PMPkkhecuo2QCwWR+SLON44jlHEdROyMNYRxJKa9harYYWx
+      Zmcf4Y+0YJc38EVaZGGsI4olNdVHve2g7r80/Pr5x191P/N1EsmrhLwJljQ1Mh1asitCCCqL
+      G+RuT4KA8Gu9BI91vjS1/RuBNIBkV4Rpkxt9SOsPL4GqsvHJTbypKJ54+PkHvyLIIZBkV+xi
+      GU8igur1oOoa/q4WzM38UctqKNIAkl3RoyHMjRxWtohdKFOaXsbXvr+Shy8rcggk2RVV10i9
+      e47syATCFcSvDKOH6n/6+6vAjgYwilnuTUyTbOuir6vtsDVJXiI80RAt379w1DJeGDsaYH1m
+      kqJR4C+/n+U3f/9zOU76ljM+Ps6DBw9oa2ujr68Py7JIpVLoul57kEQ2m+XRo0cEg0FaWlro
+      6OhgZWWFjY0NOjo66OnpOeKz2B87GiDR1cV//P4T/ssvfsa3Z8JLshu9vb1MTk6Sy+VIp9N8
+      +OGHnDlzBk3TmJ2dpbW1ldOnT6NpGuvr69y+fZtkMkmxWKS/v5/p6elvlwE2F+aJtcX4/LOb
+      /OpnVw9bk+SQMU2TSCTCiRMnyOVyXLx4kbNnz5JOp2vPEk4mk7S0tDA7O0ssFqO9vZ3V1VWG
+      hoa2FcZ61XiqLIptFPjjHz+hY2CY86ef/ZQPWRbl8GNJTfWx77Iojl3BMmHizggrm4UDC5FI
+      XmZkYaxD0NTIWFJTfcjCWBJJHUgDSJoaaQBJUyMNIGlqpAEkh4IQAnMjR+nRMq5lbz077CVA
+      GkByKOTvTJO7M42dK7H6719umeAlQGaDSl44wnEpL6zT9uPLWw/R0zXKc2uEjncdtTTZA0gO
+      gcdbKF3DQgiBlS2iBX1HLGqLunuA1YU5vLEUm4uPCCU7aG/5dm2MkLw4FFUhfuk11j8aAVXB
+      m4rha08etSxgDyvBVqlExqywPjdPpKWTrvYUjuM0bIO067qoe3yW7IuOJTU1OI4QCMdF0Xdf
+      nT3M8/N4PEr9PcDKAmlTIRwKYNu2LIx1RLFeZk25XI5PP/2UoaEhuru78fu3do8pilKr0GYL
+      wb///vf09/dz6tQpVFXFdV2mp6cZHBxEVdWXszBW9+BJWRJL8kwCgQA+n487d+6wtrbGH/7w
+      By5cuEAikWB+fp50Os2vf/1rbNtmbm6O69evk0wmmZyc5PLly4yMjPDLX/7yUDXLZLhD0NTI
+      WC+zplKpxGeffcbg4CDpdJpsNsvQ0BArKyuEQiGy2SyXLl1ic3OTiYkJXNclGAySyWQYGBgg
+      FAqRSqXweDwH1lRvMpw0wCFoamQsqak+ZDaoRFIH0gCSpkYaQNLUSANImhppAElTIw0gaWqk
+      ASRNjTSApKmRBpA0NdIAkqZGGkDS1EgDSJoaaQBJUyMNIGlqpAEkTY00gKSpkQaQNDXSAJKm
+      RhpA0tTUbYBceoNixWR1cY5MofwiNUkkh0bdu48VoVAqZik5KsW1FaLBPlzX5QB76rfhui62
+      3ZiCqY3S1WhNjYglNe0t1vPaQd0GyGyusV5x8LgmvkhSFsY6olhSU300vDBW74kheg8sSyJ5
+      uZA3wZKmRhpA0tRIA0iaGmkASVMjDSBpaqQBJE2NNICkqZEGkDQ10gCSpkYaQNLUSANImhpp
+      AElTIw0gaWqkASRNjTSApKmRBpA0NdIAkqZGGkDS1EgDSJoaaQBJUyMNIGlq9myAxblpVtbT
+      L0KLRHLo7LEAi8vK8hqDw+24risLYx1BLKlpb7EaVhgLAAHJVIKFhUXiwydkYawjiCU11UfD
+      C2NtodA3eOIAsiSSl4u9GUBRUF6QEInkKJCzQJKmRhpA0tRIA0iaGmkASVMjDSBpaqQBJE2N
+      NICkqZEGkDQ10gCSpkYaQNLUSANImhppAElTIw0gaWqkASRNjTSApKmRBpA0NdIAkqZGGkDS
+      1OzRAIKl+Rk2soUXo0YiOWT2ZADhWJh4yafXX5QeieRQ2ZMBFFWjmF7D2WsxCYnkJWWPVSE0
+      Tp89D1ArONSowliNitVoXS/b+TUyTiNjvYya6om170u5EALXdfd7+AuN16hYUtPhxjmKWPs2
+      gKqq2z4fFEVRGhJLCIEQoiGxGqWpkbGkpvqotx0oopH9jUTyCqEoinJgq01PjDN2/yEIh3t3
+      bjE5M1//wcJhfOwWD2fmAId7d8aw9tn7VYoZbt64wVqmSCmfZvSrrynY+wv28P4Y4xNTIBym
+      JsaZmN7DOT2Ba5e5eeMGCyubIFxufvkZBXNfoXg0+YDb9x4AgvE7oyyubOwvkLC4M3qTmfll
+      bLPI6OgtihVrX6EWZqcYvT2GIwQLjyb5auT2PjW5jI/d5uH0HNglbnw9wqOF1X2FMkpZbt64
+      wWq6wMrCLLdGb1F+Rjs4sAFUX5CQX0e4DsF4C7ri1H+wcAhEW9EVF9BobUmw3+7INCr09vVT
+      qZTRdQ+Jzi6C2v4KOXoCEfxeFYFKIOBH0/b3Ngm7REvXCWyjwPriIzayBfLF8r5i4fETCXpB
+      gM/vI5fL7S+OYxBp6QHHwCnnKFuwmc7sLxQ6rYkwtgMtLSl6env3p0k4BKIpdHWr4riiqrju
+      HtrRE5hmhZ7eASqVMpFoFLuUo2C+QAOE/ToeX5iSYeFxDUKxZP0Hqx68GISiCYqFLGvrm6TT
+      2f3piKXY3NwgEfGTzuYp5bOY+3sPCXpVfIEopWKecsUkHA7tK47qS2DlF0kmkoRae/nuW2+S
+      igb2FSsW9KJ5ghTLJbxeL7F4bF9x0EOoZoZYPIntidEe9xOLRvcVKhkNYbg6tlnCclRaU/H9
+      aVJ1vIpJKJKgbLpEQ/vXFIokyaTXSUYD2K5CuK2HlsDuFaLlPYCkaWnIPYBE8iojDSBpaqQB
+      JE2NNMALxLUrfP7Zdabnlnd9TW5zg2wuzfLaBqsra1jWX+/cH967xcrG82Z7BJa5v2lMyQFW
+      giXPR9X9CMWlM+7joz99xOCxQWbmV2gJ62zkCoRjLRxPwPWJDQKijDcUITCtkQubn/MAAACx
+      SURBVCuXOf/m91ha3WDy0QJ+n49kPAmhEIXVFaKJOHlDoFtZ8Hi4e2uaq1cvslly0I0MaiBK
+      YXON/tMX6Wnd58xMkyB7gEMgt77A6N373Lk1yhdf32ItX0HVdCqFTeLdg6zMzGHkN2lJJVhb
+      nCcc1FnJWRTzaV4/2c/IrbsszC3Smoqymi5x785NFpbWKNoK5XKZZCzIrZtfMzp2j7mFeR5N
+      3uWLkVsUisZRn/pLz/8HGmk+mAOV6osAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
