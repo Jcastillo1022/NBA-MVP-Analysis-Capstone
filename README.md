@@ -89,19 +89,19 @@ MVP voters prioritize team success over raw stats. Most MVPs come from 0.700+ W%
 
 3. How often have MVP teams won the championship.
    
-1. MVPs Rarely Win Championships
+ 1. MVPs Rarely Win Championships
    Only 5 of 24 MVPs (Around 20.8%) won the title the same year.
    Individual dominance doesn’t always lead to team success. 
 
-2. Back-to-Back MVPs Struggle in Playoffs
+ 2. Back-to-Back MVPs Struggle in Playoffs
    Jokić, Giannis, LeBron, and Nash won consecutive MVPs but didn’t win a title in those seasons.
    This shows how hard it is to dominate both regular season and playoffs. 
 
-3. Frequent MVPs, Few Titles
+ 3. Frequent MVPs, Few Titles
    LeBron (4x MVP) won the title in only two of those seasons.
    Tim Duncan & Shaq are the only big men to win MVP and a championship in the same year. 
 
- 4. Modern MVPs Haven’t Won Titles
+  4. Modern MVPs Haven’t Won Titles
     The last MVP to win a championship was Curry in 2015.
     Since then, every MVP has fallen short, showing a growing gap between regular-season and playoff success. 
 
