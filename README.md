@@ -73,7 +73,7 @@ Most MVPs scored between 25-30 PPG. Few MVPs scored below 20 PPG. The highest-sc
    6. Elite Playmakers Stand Out in Assists
       Top Assist MVPs: Nash (11.5 APG), Westbrook (10.4 APG), Harden (8.8 APG). 
 
-  7. The Ultimate All-Around MVPs
+   7. The Ultimate All-Around MVPs
      Triple-Double MVP: Westbrook (2016-17, 10.7 RPG, 10.4 APG).
      Balanced MVPs: LeBron (2012-13, 7.2 RPG, 7.3 APG), Jokic (2021-22, 13.8 RPG, 7.9 APG).
 
