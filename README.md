@@ -46,6 +46,9 @@ Question1. Explore how points per game are related to MVP wins.
  
 Most MVPs scored between 25-30 PPG. Few MVPs scored below 20 PPG. The highest-scoring MVPs (30+ PPG) are not rare but not the majority either. PPG is an important factor—MVPs tend to be strong scorers, but they don’t always need to lead the league in scoring. While high scoring helps, it’s not the only factor (e.g., Steve Nash won MVP with around 15-18 PPG). 
 
+![image](https://github.com/user-attachments/assets/57910e28-37b1-41bf-aaa6-880f6c3cd000)
+
+
 2. Analysis of MVP and Team Performance Data and Categorizing MVPs into High-Scoring vs. All-Around
 
    1. MVPs Usually Come from High-Win Teams
@@ -77,8 +80,46 @@ Most MVPs scored between 25-30 PPG. Few MVPs scored below 20 PPG. The highest-sc
 Overall:
 MVP voters prioritize team success over raw stats. Most MVPs come from 0.700+ W% teams, highlighting the emphasis on winning. While elite individual performances can stand out, history shows that MVPs are usually the best players on top-tier teams. Scoring, efficiency, and all-around play matter, but winning remains the strongest MVP predictor. 
 
-![image](https://github.com/user-attachments/assets/67d4d223-4654-41ef-8371-3a62a342b720)
+![image](https://github.com/user-attachments/assets/c904462b-5134-4a4b-bae4-31dc642c9653)
+
+![image](https://github.com/user-attachments/assets/cb5b3746-61ce-4262-b0d0-6718085fa848)
+
+![image](https://github.com/user-attachments/assets/5c0b5fb7-2af6-43d7-abb9-e396bf950082)
 
 
 3. How often have MVP teams won the championship.
    
+1. MVPs Rarely Win Championships
+   Only 5 of 24 MVPs (Around 20.8%) won the title the same year.
+   Individual dominance doesn’t always lead to team success. 
+
+2. Back-to-Back MVPs Struggle in Playoffs
+   Jokić, Giannis, LeBron, and Nash won consecutive MVPs but didn’t win a title in those seasons.
+   This shows how hard it is to dominate both regular season and playoffs. 
+
+3. Frequent MVPs, Few Titles
+   LeBron (4x MVP) won the title in only two of those seasons.
+   Tim Duncan & Shaq are the only big men to win MVP and a championship in the same year. 
+
+ 4. Modern MVPs Haven’t Won Titles
+    The last MVP to win a championship was Curry in 2015.
+    Since then, every MVP has fallen short, showing a growing gap between regular-season and playoff success. 
+
+  ![image](https://github.com/user-attachments/assets/9c303e93-a316-4b13-b46d-f88bef57e2de)
+
+  4. Does Age Matter? Do MVPs Tend to Be Younger or Older?
+     1. Age Distribution of MVP Winners:
+        The most frequent ages for MVP winners are between 25 and 28 years old.
+        The average MVP age is likely to be in the mid-20s, suggesting that players in their prime athletic years (mid-20s to late 20s) are most likely to win the MVP. 
+
+     2. MVP Winners and Their Career Longevity:
+        MVPs tend to occur when players are in their mid-20s, which could be their peak performance years. However, some players, like Steve Nash at age 31, won MVPs later, showing that a few players can continue excelling past the typical peak age range  
+ 
+     3. Youngest MVP Winner:
+        The youngest MVP winner is Derrick Rose, who won the MVP at age 22 during the 2010-11 season.
+        
+     4. Oldest MVP Winner:
+        The oldest MVP winner is Steve Nash, who won the MVP at age 31 during the 2005-06 season. 
+
+ ![image](https://github.com/user-attachments/assets/a814274a-9ffa-4219-9565-746b8247c6fd)
+
