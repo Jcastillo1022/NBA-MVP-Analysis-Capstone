@@ -76,3 +76,9 @@ Most MVPs scored between 25-30 PPG. Few MVPs scored below 20 PPG. The highest-sc
 
 Overall:
 MVP voters prioritize team success over raw stats. Most MVPs come from 0.700+ W% teams, highlighting the emphasis on winning. While elite individual performances can stand out, history shows that MVPs are usually the best players on top-tier teams. Scoring, efficiency, and all-around play matter, but winning remains the strongest MVP predictor. 
+
+![image](https://github.com/user-attachments/assets/67d4d223-4654-41ef-8371-3a62a342b720)
+
+
+3. How often have MVP teams won the championship.
+   
