@@ -49,7 +49,7 @@ Most MVPs scored between 25-30 PPG. Few MVPs scored below 20 PPG. The highest-sc
 ![image](https://github.com/user-attachments/assets/57910e28-37b1-41bf-aaa6-880f6c3cd000)
 
 ___
-# 2. Analysis of MVP and Team Performance Data and Categorizing MVPs into High-Scoring vs. All-Around
+# ***2. Analysis of MVP and Team Performance Data and Categorizing MVPs into High-Scoring vs. All-Around.***
 
    1. MVPs Usually Come from High-Win Teams
       Highest W%: 2015-16 Curry (0.890, 73-9 Warriors).
@@ -87,7 +87,7 @@ MVP voters prioritize team success over raw stats. Most MVPs come from 0.700+ W%
 ![image](https://github.com/user-attachments/assets/5c0b5fb7-2af6-43d7-abb9-e396bf950082)
 
 ___
-# 3. How often have MVP teams won the championship.
+# ***3. How often have MVP teams won the championship.***
    
  1. MVPs Rarely Win Championships
    Only 5 of 24 MVPs (Around 20.8%) won the title the same year.
@@ -107,7 +107,7 @@ ___
 
   ![image](https://github.com/user-attachments/assets/9c303e93-a316-4b13-b46d-f88bef57e2de)
 ___
- # 4. Does Age Matter? Do MVPs Tend to Be Younger or Older?
+ # ***4. Does Age Matter? Do MVPs Tend to Be Younger or Older?***
      1. Age Distribution of MVP Winners:
         The most frequent ages for MVP winners are between 25 and 28 years old.
         The average MVP age is likely to be in the mid-20s, suggesting that players in their prime athletic years (mid-20s to late 20s) are most likely to win the MVP. 
