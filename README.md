@@ -163,3 +163,8 @@ ___
 - Team Success Drives MVP Wins: MVPs typically come from teams with a 0.700+ win percentage whihc shows the importance of team performance. Organizations should focus on building cohesive, high-performing teams to elevate individual MVP potential.
 - Rebounding and Playmaking Matters: MVPs like Garnett, Westbrook, and Nash demonstrate the value of versatile skills—rebounding and playmaking—alongside scoring. Future players should emphasize these all-around skills.
 - Age Is Not a Barrier: Most MVPs are in their mid-20s, but players like Steve Nash show that players can still perform at an MVP level later in their careers. Teams should focus on maximizing prime years and extending career longevity.
+___
+# Future Improvements  
+- Continue the analysis to include historical MVP data prior to the year 2000 comparing trends across different eras and identifying how changes in the league’s rules and playstyle have influenced MVP outcomes.
+- Incorporate machine learning techniques to predict MVP outcomes based on factors like player efficiency, team success, and other key metrics.
+   
