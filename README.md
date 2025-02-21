@@ -1,6 +1,6 @@
-# NBA-MVP-Analysis-Capstone
+# NBA-MVP-Analysis-Capstone **This text is bold** ## This is a Medium Heading (H2)
 Google Data Analytics Capstone Project
-
+___
 Introduction:
 
 This was my Case Study Project from The Google Data Analytics Capstone Project. 
