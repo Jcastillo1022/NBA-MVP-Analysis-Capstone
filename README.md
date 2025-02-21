@@ -65,6 +65,7 @@ Most MVPs scored between 25-30 PPG. Few MVPs scored below 20 PPG. The highest-sc
 ___
 # ***2. Analysis of MVP and Team Performance Data and Categorizing MVPs into High-Scoring vs. All-Around.***
 
+```sql
 SELECT
     m.season,
     m.player,
@@ -125,6 +126,7 @@ Scoring, efficiency, and all-around play matter, but winning remains the stronge
 ___
 # ***3. How often have MVP teams won the championship.***
 
+```sql
 SELECT 
     m.season, 
     m.player AS mvp, 
@@ -157,6 +159,7 @@ LEFT JOIN nba_champions c ON m.season = c.season;
 ___
  # ***4. Does Age Matter? Do MVPs Tend to Be Younger or Older?***
 
+```sql
 SELECT Season, Player, Age  
 FROM mvp_data  
 ORDER BY age ASC;
