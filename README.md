@@ -58,9 +58,12 @@ ORDER BY MVP_Count DESC;
 ```
 
 # Results 
-Most MVPs scored between 25-30 PPG. Few MVPs scored below 20 PPG. The highest-scoring MVPs (30+ PPG) are not rare but not the majority either. 
-PPG is an important factor—MVPs tend to be strong scorers, but they don’t always need to lead the league in scoring. 
-While high scoring helps, it’s not the only factor (e.g., Steve Nash won MVP with around 15-18 PPG). 
+- PPG Distribution:
+  - Most MVPs scored between 25-30 PPG.
+  - Few MVPs scored below 20 PPG.
+- Insight:
+   - While high scoring is important, it isn’t the sole factor.
+  For example, Steve Nash won MVP with around 15-18 PPG, thanks to his playmaking and overall efficiency. 
 
 ![image](https://github.com/user-attachments/assets/57910e28-37b1-41bf-aaa6-880f6c3cd000)
 
@@ -85,37 +88,22 @@ AND m.season = t.season_year
 ORDER BY  
 t.win_loss_pct DESC;
 ```
-
-   1. MVPs Usually Come from High-Win Teams
-      Highest W%: 2015-16 Curry (0.890, 73-9 Warriors).
-      Exception: Westbrook (2016-17, 0.573 W%) – A rare outlier due to his triple-double season. 
-
-   2. Scoring Matters, But Isn’t Everything
-      Typical PPG Range: 25-30 (e.g., Curry 30.1, Giannis 29.5, Durant 32).
-      Exception: Nash (2004-05, 15.5 PPG) – Won through elite playmaking and team success. 
-
-   3. Efficiency (FG%) Varies by Play Style
-      High FG% MVPs: Shaq (0.574), Giannis (0.578), Duncan (0.513) – Dominant big men.
-      Lower FG% MVPs: Westbrook (0.425), Iverson (0.420) – High-volume scorers. 
- 
-   4. High-Scoring Teams Often Produce MVPs
-     High PPG MVPs: Harden (2017-18, 112.4 PPG Rockets), Curry (2015-16, 114.9 PPG Warriors).
-     Exceptions: Duncan (2002-03, 95.8 PPG Spurs), Iverson (2000-01, 94.7 PPG 76ers). 
-
-   5. Big Men Dominate Rebounding MVPs
-      Top Rebounders: Garnett (13.9 RPG), Shaq (13.6 RPG), Duncan (12.9 RPG). 
-
-   6. Elite Playmakers Stand Out in Assists
-      Top Assist MVPs: Nash (11.5 APG), Westbrook (10.4 APG), Harden (8.8 APG). 
-
-   7. The Ultimate All-Around MVPs
-     Triple-Double MVP: Westbrook (2016-17, 10.7 RPG, 10.4 APG).
-     Balanced MVPs: LeBron (2012-13, 7.2 RPG, 7.3 APG), Jokic (2021-22, 13.8 RPG, 7.9 APG).
-
-# Overall:
-MVP voters prioritize team success over raw stats. Most MVPs come from 0.700+ W% teams, highlighting the emphasis on winning. 
-While elite individual performances can stand out, history shows that MVPs are usually the best players on top-tier teams. 
-Scoring, efficiency, and all-around play matter, but winning remains the strongest MVP predictor. 
+# Results 
+- Team Success:
+   - Most MVPs come from teams with a win percentage above 0.700.
+   - Example: Curry (2015-16) led the 73-9 Warriors (W% = 0.890), while Westbrook (2016-17) is an outlier with a W% of 0.573.
+- Scoring and Efficiency:
+   - Typical MVPs score between 25-30 PPG (e.g., Curry 30.1, Giannis 29.5, Durant 32).
+   - MVPs with very low PPG, like Nash (15.5 PPG), compensated with elite playmaking.
+- Field Goal Percentage Variations:
+   - High FG% MVPs: Shaq (0.574), Giannis (0.578), Duncan (0.513) – usually dominant big men.
+   - Lower FG% MVPs: Westbrook (0.425), Iverson (0.420) – typically high-volume scorers.
+- Rebounding & Playmaking:
+   - Top Rebounders: Garnett (13.9 RPG), Shaq (13.6 RPG), Duncan (12.9 RPG).
+   - Top Assist Leaders: Nash (11.5 APG), Westbrook (10.4 APG), Harden (8.8 APG).
+- All-Around Performance:
+   - Triple-Double MVP: Westbrook (2016-17)
+   - Balanced MVPs: LeBron (2012-13) and Jokic (2021-22)
 
 ![image](https://github.com/user-attachments/assets/c904462b-5134-4a4b-bae4-31dc642c9653)
 
@@ -124,7 +112,7 @@ Scoring, efficiency, and all-around play matter, but winning remains the stronge
 ![image](https://github.com/user-attachments/assets/5c0b5fb7-2af6-43d7-abb9-e396bf950082)
 
 ___
-# ***3. How often have MVP teams won the championship.***
+# ***3. Championship Success of MVP Teams.***
 
 ```sql 
 SELECT 
@@ -139,22 +127,16 @@ SELECT
 FROM mvp_data m
 LEFT JOIN nba_champions c ON m.season = c.season;
 ```
-   
- 1. MVPs Rarely Win Championships
-   Only 5 of 24 MVPs (Around 20.8%) won the title the same year.
-   Individual dominance doesn’t always lead to team success. 
-
- 2. Back-to-Back MVPs Struggle in Playoffs
-   Jokić, Giannis, LeBron, and Nash won consecutive MVPs but didn’t win a title in those seasons.
-   This shows how hard it is to dominate both regular season and playoffs. 
-
- 3. Frequent MVPs, Few Titles
-   LeBron (4x MVP) won the title in only two of those seasons.
-   Tim Duncan & Shaq are the only big men to win MVP and a championship in the same year. 
-
-  4. Modern MVPs Haven’t Won Titles
-    The last MVP to win a championship was Curry in 2015.
-    Since then, every MVP has fallen short, showing a growing gap between regular-season and playoff success. 
+# Results 
+- Championship Wins:
+   - Only 5 out of 24 MVPs (~20.8%) won the championship in the same season.
+- Back-to-Back MVPs:
+   - Players like Jokić, Giannis, LeBron, and Nash won consecutive MVPs but didn’t win a title in those seasons.
+- Frequent MVPs, Few Titles:
+   - Despite being a 4x MVP, LeBron won the championship in only two seasons.
+   - Tim Duncan and Shaq are the only big men to win both MVP and the championship in the same season.
+- Modern Trends:
+   - The last MVP to win a championship in the same season was Curry in 2015; since then, no MVP has replicated this feat.. 
 
   ![image](https://github.com/user-attachments/assets/9c303e93-a316-4b13-b46d-f88bef57e2de)
 ___
@@ -165,22 +147,16 @@ SELECT Season, Player, Age
 FROM mvp_data  
 ORDER BY age ASC;
 ```
- 
-     1. Age Distribution of MVP Winners:
-        The most frequent ages for MVP winners are between 25 and 28 years old.
-        The average MVP age is likely to be in the mid-20s, suggesting that players in their prime athletic years
-        (mid-20s to late 20s) are most likely to win the MVP. 
-
-     2. MVP Winners and Their Career Longevity:
-        MVPs tend to occur when players are in their mid-20s, which could be their peak performance years. 
-        However, some players, like Steve Nash at age 31, won MVPs later, showing that a few players can 
-        continue excelling past the typical peak age range  
- 
-     3. Youngest MVP Winner:
-        The youngest MVP winner is Derrick Rose, who won the MVP at age 22 during the 2010-11 season.
-        
-     4. Oldest MVP Winner:
-        The oldest MVP winner is Steve Nash, who won the MVP at age 31 during the 2005-06 season. 
+# Results 
+- Age Distribution:
+   - Most MVP winners are between 25 and 28 years old—often considered their prime.
+- Career Longevity:
+   - MVP awards typically come in a player's mid-20s, although some, like Steve Nash (31), have won later.
+- Notable Age:
+   - Youngest MVP: Derrick Rose at 22 (2010-11 season).
+   - Oldest MVP: Steve Nash at 31 (2005-06 season).
 
  ![image](https://github.com/user-attachments/assets/a814274a-9ffa-4219-9565-746b8247c6fd)
+
+# Overall Conclusion:
 
