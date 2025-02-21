@@ -44,6 +44,7 @@ ___
 
 # ***1. Explore how points per game are related to MVP wins.*** 
 
+```sql
 SELECT 
 CASE 
 WHEN points_per_game < 20 THEN 'Below 20 PPG'
