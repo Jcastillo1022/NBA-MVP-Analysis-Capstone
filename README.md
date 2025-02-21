@@ -59,12 +59,12 @@ ORDER BY MVP_Count DESC;
 # Results 
 - PPG Distribution:
   - Most MVPs scored between 25-30 PPG.
-  - Few MVPs scored below 20 PPG.
+  - Few MVPs scored below 20 PPG. (Only Steve Nash)
 - Insight:
    - While high scoring is important, it isn’t the sole factor.
-  For example, Steve Nash won MVP with around 15-18 PPG, thanks to his playmaking and overall efficiency. 
+  For example, Steve Nash won MVP with around 15-18 PPG, thanks to his playmaking with assisst and overall efficiency. 
 
-![image](https://github.com/user-attachments/assets/57910e28-37b1-41bf-aaa6-880f6c3cd000)
+[![MVP's PPG Category](https://github.com/user-attachments/assets/dba71335-337d-45d5-a1cf-9bc6ad6de7c6)](https://public.tableau.com/app/profile/joshua.castillo2852/viz/DistributionofMVPsbyPPGCategory/MVPsPPGCategory) 
 
 # ***2. Analysis of MVP and Team Performance Data and Categorizing MVPs into High-Scoring vs. All-Around.*** 
 
@@ -89,26 +89,27 @@ t.win_loss_pct DESC;
 ```
 # Results 
 - Team Success:
-   - Most MVPs come from teams with a win percentage above 0.700.
+   - Most MVPs come from teams with a winning percentage above 0.700.
    - Example: Curry (2015-16) led the 73-9 Warriors (W% = 0.890), while Westbrook (2016-17) is an outlier with a W% of 0.573.
 - Scoring and Efficiency:
-   - Typical MVPs score between 25-30 PPG (e.g., Curry 30.1, Giannis 29.5, Durant 32).
+   - Typical MVPs score between 25-30 PPG
    - MVPs with very low PPG, like Nash (15.5 PPG), compensated with elite playmaking.
 - Field Goal Percentage Variations:
-   - High FG% MVPs: Shaq (0.574), Giannis (0.578), Duncan (0.513) – usually dominant big men.
-   - Lower FG% MVPs: Westbrook (0.425), Iverson (0.420) – typically high-volume scorers.
+   - High FG% MVPs are usually dominant big men ex: Shaq (0.574), Giannis (0.578), Duncan (0.513).
+   - Lower FG% MVPs are typically high-volume scorers ex: Westbrook (0.425), Iverson (0.420).
 - Rebounding & Playmaking:
    - Top Rebounders: Garnett (13.9 RPG), Shaq (13.6 RPG), Duncan (12.9 RPG).
    - Top Assist Leaders: Nash (11.5 APG), Westbrook (10.4 APG), Harden (8.8 APG).
 - All-Around Performance:
    - Triple-Double MVP: Westbrook (2016-17)
-   - Balanced MVPs: LeBron (2012-13) and Jokic (2021-22)
+   - Balanced MVPs: LeBron (2012-13) and Jokic (2021-22). Close to a Triple-Double.
 
-![image](https://github.com/user-attachments/assets/c904462b-5134-4a4b-bae4-31dc642c9653)
+[![Team Success vs  MVP Performance](https://github.com/user-attachments/assets/e208ea22-47ed-4e58-bdf2-9c48a1f8fa81)
+)](https://public.tableau.com/views/MVPandTeamPerformance/TeamSuccessvs_MVPPerformance?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-![image](https://github.com/user-attachments/assets/cb5b3746-61ce-4262-b0d0-6718085fa848)
+[![MVP Scoring Trends](https://github.com/user-attachments/assets/392e21c2-7843-498d-87f3-45fddc680bd5)](https://public.tableau.com/views/MVPandTeamPerformance/MVPScoringTrends?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-![image](https://github.com/user-attachments/assets/5c0b5fb7-2af6-43d7-abb9-e396bf950082)
+[![Multi-Metric MVP Performance Chart (Team PPG, RPG, APG)](https://github.com/user-attachments/assets/b5db77bb-a860-44cf-9fc0-3946e56202fc)](https://public.tableau.com/views/MVPandTeamPerformance/Multi-MetricMVPPerformanceChartTeamPPGRPGAPG?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ___
 # ***3. Championship Success of MVP Teams.***
@@ -128,16 +129,16 @@ LEFT JOIN nba_champions c ON m.season = c.season;
 ```
 # Results 
 - Championship Wins:
-   - Only 5 out of 24 MVPs (~20.8%) won the championship in the same season.
+   - Only 5 out of the 24 MVPs (~20.8%) won the championship in the same season.
 - Back-to-Back MVPs:
-   - Players like Jokić, Giannis, LeBron, and Nash won consecutive MVPs but didn’t win a title in those seasons.
+   - Players like Jokić, Giannis, LeBron, and Nash won consecutive MVPs but didn’t win a title in those seasons, showing it's not easy to win both MVP and Championship.
 - Frequent MVPs, Few Titles:
    - Despite being a 4x MVP, LeBron won the championship in only two seasons.
    - Tim Duncan and Shaq are the only big men to win both MVP and the championship in the same season.
 - Modern Trends:
-   - The last MVP to win a championship in the same season was Curry in 2015; since then, no MVP has replicated this feat.. 
+   - The last MVP to win a championship in the same season was Stephen Curry back in 2015; since then, no MVP has won. 
 
-  ![image](https://github.com/user-attachments/assets/9c303e93-a316-4b13-b46d-f88bef57e2de)
+ [![MVP Champions](https://github.com/user-attachments/assets/b586e602-2f1a-4558-820f-8342fe4d0e89)](https://public.tableau.com/views/MVPChampions/MVPChampions?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 ___
  # ***4. Does Age Matter? Do MVPs Tend to Be Younger or Older?***
 
@@ -155,7 +156,10 @@ ORDER BY age ASC;
    - Youngest MVP: Derrick Rose at 22 (2010-11 season).
    - Oldest MVP: Steve Nash at 31 (2005-06 season).
 
- ![image](https://github.com/user-attachments/assets/a814274a-9ffa-4219-9565-746b8247c6fd)
-
-# Overall Conclusion:
-
+[![Dashboard 1](https://github.com/user-attachments/assets/9be8dcd1-f41d-44b5-92e0-bf0713827dcd)](https://public.tableau.com/views/MVPAges/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+___
+# Overall Conclusion and Actions:
+- Scoring Alone Isn't Enough: While MVPs often score between 25-30 PPG, playmaking and efficience are important for winning the award. Basketball teams should focus on developing all-around players.
+- Team Success Drives MVP Wins: MVPs typically come from teams with a 0.700+ win percentage whihc shows the importance of team performance. Organizations should focus on building cohesive, high-performing teams to elevate individual MVP potential.
+- Rebounding and Playmaking Matters: MVPs like Garnett, Westbrook, and Nash demonstrate the value of versatile skills—rebounding and playmaking—alongside scoring. Future players should emphasize these all-around skills.
+- Age Is Not a Barrier: Most MVPs are in their mid-20s, but players like Steve Nash show that players can still perform at an MVP level later in their careers. Teams should focus on maximizing prime years and extending career longevity.
