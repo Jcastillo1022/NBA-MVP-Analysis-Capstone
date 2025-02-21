@@ -42,7 +42,7 @@ Data was further cleaned and transformed for easier analysis and comparison in T
 ___
 # Analyis and Visuals
 
-# *** 1. Explore how points per game are related to MVP wins. *** 
+# ***1. Explore how points per game are related to MVP wins.*** 
  
 Most MVPs scored between 25-30 PPG. Few MVPs scored below 20 PPG. The highest-scoring MVPs (30+ PPG) are not rare but not the majority either. PPG is an important factor—MVPs tend to be strong scorers, but they don’t always need to lead the league in scoring. While high scoring helps, it’s not the only factor (e.g., Steve Nash won MVP with around 15-18 PPG). 
 
