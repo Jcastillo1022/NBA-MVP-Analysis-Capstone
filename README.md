@@ -62,9 +62,7 @@ Most MVPs scored between 25-30 PPG. Few MVPs scored below 20 PPG. The highest-sc
 
 ![image](https://github.com/user-attachments/assets/57910e28-37b1-41bf-aaa6-880f6c3cd000)
 
-___
-
-# ***2. Analysis of MVP and Team Performance Data and Categorizing MVPs into High-Scoring vs. All-Around.***
+# ***2. Analysis of MVP and Team Performance Data and Categorizing MVPs into High-Scoring vs. All-Around.*** 
 
 ```sql
 SELECT
