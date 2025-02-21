@@ -67,24 +67,22 @@ ___
 
 ```sql
 SELECT
-    m.season,
-    m.player,
-    m.team,
-    m.points_per_game AS PPG,
-	m.assists_per_game AS APG,
-	rebounds_per_game AS RPG,
-    m.wins_shares,
-    m.win_shares_per_48,
-	m.fg_percentage,
-    t.win_loss_pct AS Team_Win_Percentage,
-    t.points_per_game AS Team_Points_Scored_Per_Game
-FROM 
-    mvp_data m
-JOIN 
-    nba_team_performance t 
-ON m.team = t.team AND m.season = t.season_year
+m.season,
+m.player,
+m.team,
+m.points_per_game AS PPG,
+m.assists_per_game AS APG,
+rebounds_per_game AS RPG,
+m.wins_shares,
+m.win_shares_per_48,
+m.fg_percentage,
+t.win_loss_pct AS Team_Win_Percentage,
+t.points_per_game AS Team_Points_Scored_Per_Game
+FROM  mvp_data m
+JOIN nba_team_performance t ON m.team = t.team
+AND m.season = t.season_year
 ORDER BY  
-    t.win_loss_pct DESC;
+t.win_loss_pct DESC;
 
    1. MVPs Usually Come from High-Win Teams
       Highest W%: 2015-16 Curry (0.890, 73-9 Warriors).
@@ -126,7 +124,7 @@ Scoring, efficiency, and all-around play matter, but winning remains the stronge
 ___
 # ***3. How often have MVP teams won the championship.***
 
-```sql
+```sql 
 SELECT 
     m.season, 
     m.player AS mvp, 
