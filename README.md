@@ -3,8 +3,7 @@
 ___
 # Introduction:
 
-This was my Case Study Project from The Google Data Analytics Capstone Project. 
-
+This was my Case Study Project from The Google Data Analytics Capstone Project. I love basketball and love watching statistics on TV, which is why I choose this as my analysis.
 This project analyzizes key factors that contribute to a player winning the NBA MVP (Most Valuable Player) award. The analysis explores the relationship between individual player performance (points, assists, rebounds, efficiency) and team performance (wins, win percentage, scoring) from the year 2000 to 2023. The goal is to identify the major predictors of MVP wins and understand how they correlate with team success and playoff performance.
 ___
 # Business Question
@@ -21,10 +20,10 @@ ___
 
 The data for this project was extracted from Basketball-Reference.com 
 The main datasets used in this analysis include:
-MVP Data: Player performance statistics for MVP winners.
-NBA Champions: NBA Team Champions
-NBA Team Performance Data: Team stats, including wins, losses, and scoring etc.
-NBA Playoff Summary: Player and team statistics for postseason performance 
+- MVP Data: Player performance statistics for MVP winners.
+- NBA Champions: NBA Team Champions
+- NBA Team Performance Data: Team stats, including wins, losses, and scoring etc.
+- NBA Playoff Summary: Player and team statistics for postseason performance 
 ___
 # Data Extraction:
 
