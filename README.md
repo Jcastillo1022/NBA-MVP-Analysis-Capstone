@@ -26,7 +26,6 @@ NBA Champions: NBA Team Champions
 NBA Team Performance Data: Team stats, including wins, losses, and scoring etc.
 NBA Playoff Summary: Player and team statistics for postseason performance 
 ___
-# Data Processing
 # Data Extraction:
 
 Data was pulled from Basketball-Reference for the MVPs,team performance and playoff summary from 2000 onward.
@@ -44,7 +43,7 @@ ___
 
 # ***1. Explore how points per game are related to MVP wins.*** 
 
-sql
+```sql
 SELECT 
 CASE 
 WHEN points_per_game < 20 THEN 'Below 20 PPG'
@@ -56,9 +55,12 @@ COUNT(*) AS MVP_Count
 FROM mvp_data
 GROUP BY PPG_Category
 ORDER BY MVP_Count DESC;
+```
 
 # Results 
-Most MVPs scored between 25-30 PPG. Few MVPs scored below 20 PPG. The highest-scoring MVPs (30+ PPG) are not rare but not the majority either. PPG is an important factor—MVPs tend to be strong scorers, but they don’t always need to lead the league in scoring. While high scoring helps, it’s not the only factor (e.g., Steve Nash won MVP with around 15-18 PPG). 
+Most MVPs scored between 25-30 PPG. Few MVPs scored below 20 PPG. The highest-scoring MVPs (30+ PPG) are not rare but not the majority either. 
+PPG is an important factor—MVPs tend to be strong scorers, but they don’t always need to lead the league in scoring. 
+While high scoring helps, it’s not the only factor (e.g., Steve Nash won MVP with around 15-18 PPG). 
 
 ![image](https://github.com/user-attachments/assets/57910e28-37b1-41bf-aaa6-880f6c3cd000)
 
@@ -82,6 +84,7 @@ JOIN nba_team_performance t ON m.team = t.team
 AND m.season = t.season_year
 ORDER BY  
 t.win_loss_pct DESC;
+```
 
    1. MVPs Usually Come from High-Win Teams
       Highest W%: 2015-16 Curry (0.890, 73-9 Warriors).
@@ -135,6 +138,7 @@ SELECT
     END AS mvp_won_championship
 FROM mvp_data m
 LEFT JOIN nba_champions c ON m.season = c.season;
+```
    
  1. MVPs Rarely Win Championships
    Only 5 of 24 MVPs (Around 20.8%) won the title the same year.
@@ -160,14 +164,17 @@ ___
 SELECT Season, Player, Age  
 FROM mvp_data  
 ORDER BY age ASC;
+```
  
      1. Age Distribution of MVP Winners:
         The most frequent ages for MVP winners are between 25 and 28 years old.
-        The average MVP age is likely to be in the mid-20s, suggesting that players in their prime athletic years (mid-20s to late 20s) are most likely to win the MVP. 
+        The average MVP age is likely to be in the mid-20s, suggesting that players in their prime athletic years
+        (mid-20s to late 20s) are most likely to win the MVP. 
 
      2. MVP Winners and Their Career Longevity:
         MVPs tend to occur when players are in their mid-20s, which could be their peak performance years. 
-        However, some players, like Steve Nash at age 31, won MVPs later, showing that a few players can continue excelling past the typical peak age range  
+        However, some players, like Steve Nash at age 31, won MVPs later, showing that a few players can 
+        continue excelling past the typical peak age range  
  
      3. Youngest MVP Winner:
         The youngest MVP winner is Derrick Rose, who won the MVP at age 22 during the 2010-11 season.
