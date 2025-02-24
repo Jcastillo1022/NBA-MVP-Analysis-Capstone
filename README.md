@@ -37,3 +37,5 @@ ___
 
 Four tables were created in PostgreSQL to store the MVP, team performance, and playoff data.
 Data was further cleaned and transformed for easier analysis and comparison in Tableau.
+___
+# For Full Results and Findings [Results](https://github.com/Jcastillo1022/NBA-MVP-Analysis-Capstone/blob/main/RESULTS.md)
